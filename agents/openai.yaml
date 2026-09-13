@@ -1,0 +1,4 @@
+interface:
+  display_name: "LiXiang Layout Branding"
+  short_description: "Batch-frame architectural sheets with LiXiang branding"
+  default_prompt: "Add the LiXiang orange frame, vector logo, and one centered watermark to the provided design sheets."
