@@ -1,0 +1,4 @@
+interface:
+  display_name: "建筑案例图解"
+  short_description: "Architecture case analysis and diagram generation workflow"
+  default_prompt: "请把这个建筑案例整理成场地响应、空间组织、空间体验和建筑形式四张分析图，并生成完整图版方案。"
