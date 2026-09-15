@@ -1,0 +1,4 @@
+interface:
+  display_name: "LiXiang Audio Revision Handbook"
+  short_description: "Build illustrated theory revision handbooks"
+  default_prompt: "Create a branded, illustrated revision handbook from my recording and reference books."
