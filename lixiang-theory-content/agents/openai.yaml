@@ -1,0 +1,4 @@
+interface:
+  display_name: "厘想理论内容包装"
+  short_description: "将音频、逐字稿或大纲制作成配图长图与小红书切片"
+  default_prompt: "使用 $lixiang-theory-content，根据我提供的音频、逐字稿或大纲，直接制作带配图的公众号长图、小红书封面和知识切片。"
