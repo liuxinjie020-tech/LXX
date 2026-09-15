@@ -29,13 +29,16 @@ Create one coherent episode system rather than separate, loosely related graphic
 1. Normalize the source material into an ordered knowledge outline. Preserve the lecturer's intended memory cues while removing filler and repetition.
 2. Fact-check and expand only what helps students understand or recall the supplied topics. Distinguish course memory points from broader contextual explanation.
 3. Plan visuals before layout so each knowledge point has images that directly reinforce its region, type, structure, environment, person, book, or example.
-4. Create the episode cover and use its visual language throughout the WeChat long image and Xiaohongshu set.
-5. Render, inspect, revise, and export the complete package described in [references/deliverables.md](references/deliverables.md).
+4. Before designing, inspect the approved visual master at [assets/reference-wechat-long-image.png](assets/reference-wechat-long-image.png) and read [references/visual-style.md](references/visual-style.md). Use this composition system for all future episode graphics unless the user explicitly requests a different style.
+5. Create the episode cover and use its visual language throughout the WeChat long image and Xiaohongshu set.
+6. Render, inspect, revise, and export the complete package described in [references/deliverables.md](references/deliverables.md).
 
 ## Brand and cover system
 
+- The supplied long-image reference is the default visual master, not merely a loose inspiration. Preserve its hierarchy, density, section rhythm, card language, caption system, and closing structure while replacing topic-specific content.
 - Use the established LiXiang palette: warm off-white, black typography, and orange emphasis, with the `厘想设计教育` logo lockup.
 - Use the correct approved senior male or senior female presenter character. Keep the same recognizable character identity across an episode.
+- The top of every long image must combine three recognizable elements: the current episode topic, the correct senior male or senior female presenter, and a restrained architecture-theory background connected to the episode. The background may use building silhouettes, construction linework, maps, diagrams, or representative architecture but must remain secondary.
 - Make the current topic and presenter the dominant cover elements. Enlarge both for social-media covers; weaken decorative architecture, diagrams, series labels, and other secondary elements.
 - Keep recurring labels such as `中建史带背` or `理论带背` subordinate to the episode title.
 - When useful, create two Xiaohongshu cover options: a direct topic version and a curiosity-driven question version. The question must arise from the actual episode and must not use clickbait unrelated to the content.
