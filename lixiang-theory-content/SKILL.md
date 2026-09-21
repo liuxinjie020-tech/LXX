@@ -22,16 +22,31 @@ Build the teaching structure from the strongest supplied input:
 
 Ask a question only when a missing choice would materially change the result, such as an unknown presenter identity or an inaccessible reference library. Otherwise proceed with a reasonable, stated assumption.
 
+## Framework approval gate
+
+For a new episode, **do not start visual research, image generation, or layout until the user has approved a written theory framework**. First turn the supplied audio, transcript, outline, and relevant reference materials into a compact review brief containing:
+
+- episode title and one-sentence teaching thesis;
+- ordered learning path and section hierarchy;
+- each section's core conclusion, memory cues, key terms, and named cases;
+- high-frequency comparisons and a proposed self-test;
+- a provisional list of the kinds of drawings or images each section will need.
+
+Deliver that framework in a readable, editable form and explicitly wait for the user's confirmation or changes. After approval, preserve the agreed sequence and terminology while researching visuals and producing the episode. A later change to the teaching structure requires reconfirmation before rebuilding the graphics.
+
+For detailed source research, original-figure extraction, crop decisions, and source-manifest requirements, read [references/source-research-and-approval.md](references/source-research-and-approval.md) before beginning visual production.
+
 ## Episode workflow
 
 Create one coherent episode system rather than separate, loosely related graphics:
 
 1. Normalize the source material into an ordered knowledge outline. Preserve the lecturer's intended memory cues while removing filler and repetition.
-2. Fact-check and expand only what helps students understand or recall the supplied topics. Distinguish course memory points from broader contextual explanation.
-3. Plan visuals before layout so each knowledge point has images that directly reinforce its region, type, structure, environment, person, book, or example.
-4. Before designing, inspect the approved visual master at [assets/reference-wechat-long-image.png](assets/reference-wechat-long-image.png) and read [references/visual-style.md](references/visual-style.md). Use this composition system for all future episode graphics unless the user explicitly requests a different style.
-5. Create the episode cover and use its visual language throughout the WeChat long image and Xiaohongshu set.
-6. Render, inspect, revise, and export the complete package described in [references/deliverables.md](references/deliverables.md).
+2. Present the theory framework and wait for the user's explicit approval before any visual-production work.
+3. Fact-check and expand only what helps students understand or recall the approved topics. Distinguish course memory points from broader contextual explanation.
+4. Build a visual plan that maps every major knowledge point to relevant textbook figures, reference images, or diagrams before layout.
+5. Before designing, inspect the approved visual master at [assets/reference-wechat-long-image.png](assets/reference-wechat-long-image.png) and read [references/visual-style.md](references/visual-style.md). Use this composition system for all future episode graphics unless the user explicitly requests a different style.
+6. Create the episode cover and use its visual language throughout the WeChat long image and Xiaohongshu set.
+7. Render, inspect, revise, and export the complete package described in [references/deliverables.md](references/deliverables.md).
 
 ## Brand and cover system
 
@@ -48,15 +63,16 @@ Create one coherent episode system rather than separate, loosely related graphic
 
 Source visuals in this order:
 
-1. Relevant, traceable web images from authoritative, official, scholarly, museum, government, or clearly reusable sources.
-2. Subject-matched images from the user's PPT, PDF, or book library.
-3. Newly generated visuals only when the first two sources cannot provide a suitable image.
+1. **Subject-matched original figures from the user's textbook, atlas, PDF, PPT, or course library.** For architecture history, prefer original plans, sections, elevations, construction diagrams, maps, and annotated historic drawings that directly support the knowledge point.
+2. Relevant, traceable web images from authoritative, official, scholarly, museum, government, or clearly reusable sources, used to fill a genuine gap in the supplied library or add a necessary spatial/photographic view.
+3. Newly generated visuals only when neither the supplied library nor reliable web sources can provide a suitable image.
 
 Keep generated knowledge-point images at or below 30% of the total unless the user explicitly approves more. Record the source type and the exact page, file, or URL for every visual.
 
 - Aim for 2–4 useful visuals per major knowledge point when the material supports them. Do not add decorative images that do not improve recall.
 - Each image must visibly correspond to its caption and nearby text. Captions should be short, exact, and non-speculative.
-- Avoid large unused white margins inside image cells. Crop book pages and slide screenshots to the meaningful figure; if the result is still visually sparse, replace it or pair it with a stronger photograph, map, aerial view, or construction diagram.
+- Extract the completed textbook figure rather than an entire page wherever possible. Crop away unrelated page furniture and construction-step clutter, but retain the complete plan, section, elevation, structural path, labels, and geometry needed for recall.
+- Avoid large unused white margins inside image cells. If a technical drawing is tall or near-square, recompose its cell or use contain-fit instead of cutting away essential geometry; do not force a cover-fit crop that makes the drawing incomplete.
 - Use cover-fit for photographs and content crops when the subject remains legible. Use contain-fit for technical drawings only when cropping would remove labels or essential geometry.
 - A four-image topic page should normally use a balanced 2×2 grid. A three-image topic may use two equal cards above one full-width card. Recompose when source aspect ratios make either layout feel empty.
 
