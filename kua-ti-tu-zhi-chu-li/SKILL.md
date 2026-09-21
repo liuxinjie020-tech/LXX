@@ -27,7 +27,7 @@ description: 将五张建筑快题或方案图与专业点评合成为 1:6 竖�
 ## 版式约束
 
 - 默认输出为 1800 × 10800 px 的 PNG，严格保持 1:6。
-- 原图完整优先：等比缩放并加框，禁止裁切建筑图纸、尺寸、边框或签名来填满版面。
+- 原图完整优先：等比缩放并加框８禁止裁切建筑图纸、尺寸、边框或签名来填满版面。
 - 用橙、黑、白和浅灰构建标题条、编号、图片区框和评语区。主题色以用户提供的参考图为准；没有参考时，使用暖橙作为强调色而不是覆盖原图。
 - 每组保持一致结构：斜切标题条 → 原图 → 橙色的方案亮点段 → 白底的改进建议段。使用大字号，宁可减少装饰也不要牺牲阅读。
 - 若用户认可整体风格但要求调整文字，只修改文字密度、字号或评语结构；保留已被认可的比例、色彩和视觉层级。
@@ -35,7 +35,7 @@ description: 将五张建筑快题或方案图与专业点评合成为 1:6 竖�
 
 ## 渲染
 
-使用 [scripts/render_review_long_image.py](scripts/render_review_long_image.py)。准备一个 UTF-8 JSON 配置，每一项包含图片路径、标题、`highlight` 和 `improvement` 两段评语：
+使用 [render_rewiew_long_image.py](render_review_long_image.py)。准备一个 UTF-8 JSON 配置，每一项包含图片路径、标题、`highlight` 和 `improvement` 两段评语：
 
 ```json
 {
@@ -54,7 +54,7 @@ description: 将五张建筑快题或方案图与专业点评合成为 1:6 竖�
 执行：
 
 ```powershell
-python scripts/render_review_long_image.py --config "C:/work/review.json"
+python render_review_long_image.py --config "C:/work/review.json"
 ```
 
 脚本会验证图片存在、确保输出比例为 1:6，并在文字区超出可用高度时明确报错。渲染后应目视检查：五张图均完整、两段文字没有溢出、中文字体可读、主题色没有遮挡图纸。
