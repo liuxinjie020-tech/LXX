@@ -26,3 +26,5 @@ For each approved major knowledge point, make a short visual plan: the point bei
 ## 4. Source manifest
 
 For every visual, record the knowledge point, caption, source type, original file and page or web URL, any attribution/licence details available, and whether it was cropped, extracted, redrawn, or generated. For book sources, distinguish PDF viewer page numbers from printed page numbers when they differ.
+
+For a user-provided or approved reference cover, record it as a separate visual source. If the final cover is a constrained revision of that image, state exactly which fields changed (for example, “orange title and black subtitle replaced”) and that the remaining composition was retained. When its background motifs are reused on long-image sections or Xiaohongshu cards, record that reuse rather than labelling the motifs as newly generated decoration.
