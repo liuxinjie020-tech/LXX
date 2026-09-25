@@ -8,12 +8,17 @@ After approval, keep the framework as the content source of truth. If the user c
 
 ## 2. Research and selection order
 
-For each approved major knowledge point, make a short visual plan: the point being taught, the needed visual type, the selected source, its caption, and why it helps recall.
+For each approved major knowledge point, make a short visual plan: the point being taught, the needed visual type, the selected source, its caption, and why it helps recall. Before image searching, ask whether the user has a relevant reference folder, file link, textbook, or approved prior visual if none has already been supplied. If no usable library is available, search the web proactively after framework approval.
 
 1. Inspect the subject-matched supplied book, atlas, PDF, PPT, and course library first. Use a table of contents, keyword search, OCR, or low-resolution page previews to find candidates; render and inspect candidate pages at usable size before selecting them.
 2. Prefer a textbook's original plans, sections, elevations, axonometrics, construction diagrams, maps, and annotated historical drawings when they directly explain the point.
 3. If the supplied library has a genuine gap, search the web for an authoritative or clearly reusable image. Favor official site, museum, university, scholarly, government, archive, or Wikimedia sources. Record the exact page or image URL and any attribution or licence information available.
-4. Generate a new diagram only when the required relationship is not available from the supplied library or reliable web sources. Generated visuals must be clearly marked in the source manifest and remain a minority of the image set.
+
+Use actual photographs and original source figures for all knowledge-point visuals. Do not fill gaps with AI-generated architecture sketches or diagrams. If no suitable visual exists, use a text/table treatment or ask the user for a source rather than generating a substitute image.
+
+## 2.1 Image acceptance criteria
+
+Select an image only when it directly supports the adjacent knowledge point, is clear at intended output size, and preserves a complete, unobstructed primary building, plan, elevation, or detail. Prefer one strong primary subject per image over a busy multi-subject montage. Adapt the slot and crop to the content rather than forcing it into a grid that cuts off essential geometry or labels.
 
 ## 3. Figure extraction and framing
 
@@ -22,6 +27,10 @@ For each approved major knowledge point, make a short visual plan: the point bei
 - Test the crop in its final card or long-image slot at actual output scale. A visually attractive crop that removes a label, structural endpoint, or figure edge fails the check.
 - Use contain-fit or a custom card composition for tall and near-square drawings. Pair it with another useful figure if necessary instead of leaving an empty-looking cell or cropping it to an unreadable fragment.
 - Avoid repeat uses of the same image unless the second use has a different, explicitly labelled teaching purpose.
+
+## 3.1 Annotations on complex images
+
+When a relationship is difficult to read, annotate the original image with concise Chinese labels plus thin connector lines. Keep labels in margins or low-information areas where possible, preserve the source image and subject, and avoid opaque callout boxes unless the user explicitly asks for them.
 
 ## 4. Source manifest
 

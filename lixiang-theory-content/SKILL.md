@@ -20,6 +20,8 @@ Build the teaching structure from the strongest supplied input:
 - When a reference folder spans several disciplines, use only files that match the current subject unless the user requests a comparison.
 - Treat the user's logo, approved presenter character, previous cover, long image, and card set as the visual authority.
 
+Before starting an image search, if the user has not already supplied a relevant reference library, file link, or prior approved visual, ask whether one is available. Use it first when provided; otherwise proactively search the web after framework approval. Do not make the user wait for a search plan when the source choice is already clear.
+
 Ask a question only when a missing choice would materially change the result, such as an unknown presenter identity or an inaccessible reference library. Otherwise proceed with a reasonable, stated assumption.
 
 ## Framework approval gate
@@ -52,6 +54,8 @@ Create one coherent episode system rather than separate, loosely related graphic
 
 - The supplied long-image reference is the default visual master, not merely a loose inspiration. Preserve its hierarchy, density, section rhythm, card language, caption system, and closing structure while replacing topic-specific content.
 - Use the established LiXiang palette: warm off-white, black typography, and orange emphasis, with the `厘想设计教育` logo lockup.
+- Before making a new episode cover, ask whether this episode should use the senior male or senior female presenter, unless that identity is already specified. Ask the user for an approved reference cover/image when one is not yet available.
+- When the user supplies an approved cover image, use that complete image as the cover base and replace only the requested title, subtitle, episode label, or other text fields. Do not rebuild it as a visible collage or substitute a new character.
 - Use the correct approved senior male or senior female presenter character. Keep the same recognizable character identity across an episode.
 - The top of every long image must combine three recognizable elements: the current episode topic, the correct senior male or senior female presenter, and a restrained architecture-theory background connected to the episode. The background may use building silhouettes, construction linework, maps, diagrams, or representative architecture but must remain secondary.
 - Make the current topic and presenter the dominant cover elements. Enlarge both for social-media covers; weaken decorative architecture, diagrams, series labels, and other secondary elements.
@@ -64,21 +68,24 @@ Create one coherent episode system rather than separate, loosely related graphic
 Source visuals in this order:
 
 1. **Subject-matched original figures from the user's textbook, atlas, PDF, PPT, or course library.** For architecture history, prefer original plans, sections, elevations, construction diagrams, maps, and annotated historic drawings that directly support the knowledge point.
-2. Relevant, traceable web images from authoritative, official, scholarly, museum, government, or clearly reusable sources, used to fill a genuine gap in the supplied library or add a necessary spatial/photographic view.
-3. Newly generated visuals only when neither the supplied library nor reliable web sources can provide a suitable image.
+2. Relevant, traceable web images from authoritative, official, scholarly, museum, government, archive, or clearly reusable sources. Search proactively when the library has a gap or when a photographic view materially improves recognition.
 
-Keep generated knowledge-point images at or below 30% of the total unless the user explicitly approves more. Record the source type and the exact page, file, or URL for every visual.
+For knowledge-point imagery, do not use AI-generated diagrams, substitute sketches, or generic visual filler. Use actual architectural photographs or original source figures. Record the source type and the exact page, file, or URL for every visual.
 
 - Aim for 2–4 useful visuals per major knowledge point when the material supports them. Do not add decorative images that do not improve recall.
 - Each image must visibly correspond to its caption and nearby text. Captions should be short, exact, and non-speculative.
+- Select only images that are clear at the intended output scale, show the relevant subject fully, and leave the primary building/object unobstructed. Prefer one strong primary subject per image over a busy multi-subject montage.
+- Adapt the image slot to the actual image ratio and subject. Never force a crop merely to match a grid if it would cut off a building, plan, elevation, key label, or visual focus.
 - Extract the completed textbook figure rather than an entire page wherever possible. Crop away unrelated page furniture and construction-step clutter, but retain the complete plan, section, elevation, structural path, labels, and geometry needed for recall.
 - Avoid large unused white margins inside image cells. If a technical drawing is tall or near-square, recompose its cell or use contain-fit instead of cutting away essential geometry; do not force a cover-fit crop that makes the drawing incomplete.
 - Use cover-fit for photographs and content crops when the subject remains legible. Use contain-fit for technical drawings only when cropping would remove labels or essential geometry.
 - A four-image topic page should normally use a balanced 2×2 grid. A three-image topic may use two equal cards above one full-width card. Recompose when source aspect ratios make either layout feel empty.
+- For a complex relationship, annotate the original image sparingly with short text and connector lines. Keep the building/figure readable; avoid opaque callout boxes over the image unless the user asks for boxed labels.
 
 ## Layout invariants
 
 - Calculate wrapped line count and block height before rendering. Text must never cross a card, column, or canvas boundary.
+- Keep chapter titles and right-side memory cues on one line within their title strip; shorten or resize them before export when they would collide or overflow.
 - The WeChat long image must follow the approved header → overview → ordered knowledge sections → comparisons or summary → self-test flow, adapted to the supplied outline.
 - Xiaohongshu cards use 1080 × 1440 (3:4) by default and are semantic slices, not fixed-pixel crops of the long image.
 - A recording-based card set carries the compact orange audio-wave header, `音频带背` cue, brand mark, and page number on every card.
@@ -93,6 +100,8 @@ Before delivery:
 - inspect the long image in vertical segments at readable scale;
 - inspect every Xiaohongshu card individually and as a contact sheet;
 - check image relevance, crop quality, captions, page order, dimensions, text wrapping, and absence of blank image slots;
+- inspect every title strip, image caption, and annotation at readable scale for overlap, clipping, and frame overflow; revise before delivery;
+- confirm visual sources are real photographs or original reference figures, with no AI-generated knowledge visuals unless the user explicitly reverses that instruction;
 - confirm every export opens correctly and that the final cover remains the approved version after any rebuild;
 - produce an image-source manifest and clearly identify any generated visuals.
 
